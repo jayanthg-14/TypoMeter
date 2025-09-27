@@ -1,5 +1,4 @@
 
-// Created the array set for the dynamic paragraphs
 let timer=null;
 let lock_index = 0; 
 let lock_value= "";
@@ -12,7 +11,6 @@ start();// this function runs loads the new para, resets timer, start timer, emp
 
 function start(){
 let index = 0;
-// getting the random index
 let ref_para = document.getElementById("ref_para");
 
 let content = ref_para.textContent;
